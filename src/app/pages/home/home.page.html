@@ -15,12 +15,56 @@
     <ion-avatar slot="end">
       <img src="https://avatars0.githubusercontent.com/u/12532889?s=400&u=758efee3e15b5e61f684a351fc82048426228f11&v=4">
     </ion-avatar>
-    
+
   </ion-item>
 
-  <!-- <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer"
-        href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div> -->
+  <ion-item lines="none" class="search">
+    <ion-input placeholder="Search, e.g. Dr.Louis Pasterur"></ion-input>
+    <ion-button color="tertiary">
+      <ion-icon name="search-outline" slot="icon-only"></ion-icon>
+    </ion-button>
+  </ion-item>
+
+  <div class="sub-title">
+    <strong slot="start">Categories</strong>
+  </div>
+
+
+  <!-- <ion-slides pager="true" [options]="slideOpts">
+    <ion-slide>
+      <ion-card>
+        <ion-icon name="add-circle-outline"></ion-icon>
+        Heart
+      </ion-card>
+    </ion-slide>
+
+  </ion-slides> -->
+
+  <div class="sub-title">
+    <strong slot="start">Top Doctors</strong>
+  </div>
+
+  <div class="list-doctors">
+    <ion-item *ngFor="let item of doctors" lines="none">
+      <ion-thumbnail slot="start">
+        <ion-img [src]="item.avatar">
+        </ion-img>
+      </ion-thumbnail>
+
+      <ion-label class="ion-text-wrap">
+        <p> {{ item.specialty }} </p>
+        <ion-text>
+          <h3>
+            <strong>
+              {{ item.name }}
+            </strong>
+          </h3>
+        </ion-text>
+      </ion-label>
+
+      <ion-icon name="ellipsis-vertical-outline" size="small" slot="end"></ion-icon>
+    </ion-item>
+  </div>
+
+
 </ion-content>

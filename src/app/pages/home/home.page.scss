@@ -10,6 +10,58 @@
     height: 50px;
   }
 }
+.sub-title {
+  padding: 16px;
+  strong {
+    font-size: 18px;
+    line-height: 36px;
+  }
+}
+
+.search {
+  margin-top: 40px;
+  ion-input {
+    background: var(--ion-color-light);
+    border-radius: 8px;
+    height: 45px;
+    --padding-start: 16px;
+    font-size: 12px;
+  }
+
+  ion-button {
+    height: 45px;
+    --border-radius: 60% 16% 25% 27% / 97% 22% 27% 16%;
+    width: 50px;
+  }
+}
+
+.list-doctors {
+  padding: 16px;
+
+
+  .status {
+    width: 20px;
+    background: green;
+  }
+
+  ion-thumbnail {
+    --border-radius: 16px;
+  }
+
+  ion-item {
+    --background: var(--ion-color-light);
+    --border-radius: 16px;
+    margin-bottom: 8px;
+    opacity: 0.7;
+  }
+
+  ion-item:first-child {
+    --background: #f7be3021;
+    opacity: none;
+    opacity: 1;
+  }
+}
+
 // #container {
 //   text-align: center;
 

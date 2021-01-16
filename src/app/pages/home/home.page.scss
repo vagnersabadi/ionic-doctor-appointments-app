@@ -5,7 +5,7 @@
   }
 
   ion-avatar {
-    --border-radius: 14px;
+    --border-radius: 10px;
     width: 50px;
     height: 50px;
   }
@@ -20,9 +20,10 @@
 
 .search {
   margin-top: 40px;
+  display: flex;
   ion-input {
     background: var(--ion-color-light);
-    border-radius: 8px;
+    border-radius: 10px;
     height: 45px;
     --padding-start: 16px;
     font-size: 12px;
@@ -30,14 +31,16 @@
 
   ion-button {
     height: 45px;
-    --border-radius: 60% 16% 25% 27% / 97% 22% 27% 16%;
+    // --border-radius: 60% 16% 25% 27% / 97% 22% 27% 16%;
     width: 50px;
+    --border-radius: 30px 10px 10px 10px;
+    // position: absolute;
+    // z-index: 2;
   }
 }
 
 .list-doctors {
   padding: 16px;
-
 
   .status {
     width: 20px;
@@ -45,12 +48,12 @@
   }
 
   ion-thumbnail {
-    --border-radius: 16px;
+    --border-radius: 10px;
   }
 
   ion-item {
     --background: var(--ion-color-light);
-    --border-radius: 16px;
+    --border-radius: 10px;
     margin-bottom: 8px;
     opacity: 0.7;
   }
@@ -62,30 +65,22 @@
   }
 }
 
-// #container {
-//   text-align: center;
+.card-categories {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  background: var(--ion-color-light);
+  border-radius: 10px;
+  color: white;
+  width: 110px;
+  opacity: 0.8;
 
-//   position: absolute;
-//   left: 0;
-//   right: 0;
-//   top: 50%;
-//   transform: translateY(-50%);
-// }
 
-// #container strong {
-//   font-size: 20px;
-//   line-height: 26px;
-// }
+  ion-icon {
+    font-size: 40px;
+    margin-bottom: 8px;
+  }
+}
 
-// #container p {
-//   font-size: 16px;
-//   line-height: 22px;
-
-//   color: #8c8c8c;
-
-//   margin: 0;
-// }
-
-// #container a {
-//   text-decoration: none;
-// }

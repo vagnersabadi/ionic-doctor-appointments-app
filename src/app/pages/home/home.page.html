@@ -30,15 +30,15 @@
   </div>
 
 
-  <!-- <ion-slides pager="true" [options]="slideOpts">
-    <ion-slide>
-      <ion-card>
-        <ion-icon name="add-circle-outline"></ion-icon>
-        Heart
-      </ion-card>
+  <ion-slides pager="false" [options]="slideOpts">
+    <ion-slide *ngFor="let item of categories">
+      <div class="card-categories" [style.background]="item.bkColor" [style.color]="item.color">
+        <ion-icon [name]="item.icon"></ion-icon>
+        <span>{{ item.name }}</span>
+      </div>
     </ion-slide>
 
-  </ion-slides> -->
+  </ion-slides>
 
   <div class="sub-title">
     <strong slot="start">Top Doctors</strong>

@@ -32,7 +32,8 @@
 
   <ion-slides pager="false" [options]="slideOpts">
     <ion-slide *ngFor="let item of categories">
-      <div class="card-categories" [style.background]="item.bkColor" [style.color]="item.color">
+      <div class="card-categories ion-activatable ripple-parent" [style.background]="item.bkColor" [style.color]="item.color">
+        <ion-ripple-effect></ion-ripple-effect>
         <ion-icon [name]="item.icon"></ion-icon>
         <span>{{ item.name }}</span>
       </div>
@@ -45,7 +46,8 @@
   </div>
 
   <div class="list-doctors">
-    <ion-item *ngFor="let item of doctors" lines="none">
+    <ion-item *ngFor="let item of doctors" lines="none" class="ion-activatable ripple-parent">
+      <ion-ripple-effect></ion-ripple-effect>
       <ion-thumbnail slot="start">
         <ion-img [src]="item.avatar">
         </ion-img>

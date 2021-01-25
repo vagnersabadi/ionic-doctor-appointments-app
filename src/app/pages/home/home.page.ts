@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { ModalController } from '@ionic/angular';
+import { ProfilePage } from './../profile/profile.page';
 
 
 interface Doctor {
@@ -59,7 +61,7 @@ export class HomePage {
       name: 'Dr. Shelley Rahman',
       status: false
     }
-  ]
+  ];
 
   categories: Categories[] = [
     {
@@ -92,8 +94,16 @@ export class HomePage {
       color: 'black',
       icon: 'heart-outline'
     }
-  ]
+  ];
 
-  constructor() { }
+  constructor(
+    private modalController: ModalController
+  ) { }
 
+  async openProfile() {
+    const modal = await this.modalController.create({
+      component: ProfilePage,
+    });
+    await modal.present();
+  }
 }

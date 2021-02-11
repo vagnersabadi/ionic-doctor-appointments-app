@@ -1,0 +1,33 @@
+name: Build and Deploy
+
+on: [push]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Use coturiv/setup-ionic
+      uses: coturiv/setup-ionic@v1
+      with:
+        cordova-version: 8
+        install-java: false
+        install-pods: false
+
+    - name: Checkout
+      uses: actions/checkout@v1
+
+    - name: Install NPM Modules
+      run: |
+        npm i -D -E @angular/cli
+        npm install
+    - name: Build
+      run: |
+        ionic build --prod -- --base-href 'https://vagnersabadi.github.io/ionic-doctor-appointments-app/'
+        ls www
+    - name: Deploy
+      uses: peaceiris/actions-gh-pages@v2
+      env:
+        PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        PUBLISH_BRANCH: gh-pages
+        PUBLISH_DIR: www

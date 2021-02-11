@@ -23,7 +23,7 @@ jobs:
         npm install
     - name: Build
       run: |
-        ionic build --prod -- --base-href 'https://hoodaajay99.github.io/ionic-github-pages-demo/'
+        ionic build --prod -- --base-href 'https://vagnersabadi.github.io/ionic-doctor-appointments-app/'
         ls www
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v2

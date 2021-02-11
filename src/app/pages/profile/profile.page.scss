@@ -1,0 +1,51 @@
+ion-header {
+    z-index: 0;
+}
+
+#profile-info {
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+}
+
+#profile-image {
+    display: block;
+    border-radius: 50px;
+    width: 170px;
+    height: 170px;
+    margin: 12px auto 45px;
+}
+
+#profile-description {
+    font-size: 22px;
+    color: #1b1818;
+}
+
+#profile-name {
+    color: #444;
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+#about {
+    padding: 16px;
+
+    #about-title {
+        font-weight: 700;
+    }
+
+    #about-description {
+        white-space: pre-line;
+        font-size: 16px;
+        color: #44444485;
+        font-weight: 500;
+    }
+}
+
+.sub-title {
+    strong {
+        font-size: 26px;
+        line-height: 41px;
+    }
+}

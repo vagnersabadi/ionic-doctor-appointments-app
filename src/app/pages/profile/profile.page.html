@@ -1,9 +1,40 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>profile</ion-title>
+    <ion-buttons slot="start">
+      <ion-button (click)="close()">
+        <ion-icon slot="icon-only" name="arrow-back"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-icon slot="icon-only" name="ellipsis-vertical"></ion-icon>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
+  <div id="profile-info">
+    <img id="profile-image"
+      [src]="'https://avatars0.githubusercontent.com/u/12532889?s=400&u=758efee3e15b5e61f684a351fc82048426228f11&v=4'">
+    <span id="profile-description">Cardiologist</span>
+    <h3 id="profile-name">Dr. Alan C Braverman</h3>
+
+
+    <div>
+
+    </div>
+
+  </div>
+
+  <ion-item lines="none" id="about">
+    <ion-label>
+      <div class="sub-title">
+        <strong slot="start">About</strong>
+      </div>
+      <p id="about-description">Dr. Alan C. Braverman is a cardiologist in Saint Louis, Missouri and is addiliadted with
+        multiple hospitals in the area. </p>
+    </ion-label>
+  </ion-item>
+
+
 
 </ion-content>

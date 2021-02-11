@@ -26,7 +26,7 @@ jobs:
         ionic build --prod -- --base-href 'https://vagnersabadi.github.io/ionic-doctor-appointments-app/'
         ls www
     - name: Deploy
-      uses: peaceiris/actions-gh-pages@v2
+      uses: peaceiris/actions-gh-pages@v3.7.3
       env:
         PERSONAL_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         PUBLISH_BRANCH: gh-pages

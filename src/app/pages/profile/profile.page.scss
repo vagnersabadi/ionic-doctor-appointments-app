@@ -49,3 +49,11 @@ ion-header {
         line-height: 41px;
     }
 }
+
+.group-actions {
+    ion-button {
+        --background: red;
+        --border-radius: 25px;
+        height: 60px;
+    }
+}

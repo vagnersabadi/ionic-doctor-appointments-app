@@ -26,9 +26,7 @@ export class HomePage {
 
   slideOpts = {
     initialSlide: 0,
-    slidesPerView: 3,
-    spaceBetween: 20,
-
+    slidesPerView: 3.3,
   };
 
   doctors: Doctor[] = [
@@ -67,14 +65,14 @@ export class HomePage {
   categories: Categories[] = [
     {
       name: 'Heart',
-      bkColor: '#3e6fe2',
+      bkColor: '#008aff',
       color: 'white',
       icon: 'heart-outline'
     },
     {
       name: 'Brain',
-      bkColor: 'rgb(112 163 243 / 74%)',
-      color: 'white',
+      bkColor: '#a2c3f7',
+      color: 'black',
       icon: 'skull-outline'
     },
     {
@@ -85,8 +83,8 @@ export class HomePage {
     },
     {
       name: 'Brain',
-      bkColor: 'rgb(112 163 243 / 74%)',
-      color: 'white',
+      bkColor: '#a2c3f7',
+      color: 'black',
       icon: 'skull-outline'
     },
     {

@@ -19,10 +19,11 @@
   </ion-item>
 
   <ion-item lines="none" class="search">
-    <ion-input placeholder="Search, e.g. Dr.Louis Pasterur"></ion-input>
-    <ion-button color="tertiary">
-      <ion-icon name="search-outline" slot="icon-only"></ion-icon>
-    </ion-button>
+    <ion-input placeholder="Search, e.g. Dr.Louis Pasterur">
+      <ion-button color="tertiary">
+        <ion-icon name="search-outline" slot="icon-only"></ion-icon>
+      </ion-button>
+    </ion-input>
   </ion-item>
 
   <div class="sub-title">
@@ -36,7 +37,11 @@
         [style.color]="item.color">
         <ion-ripple-effect></ion-ripple-effect>
         <ion-icon [name]="item.icon"></ion-icon>
-        <span>{{ item.name }}</span>
+        <span>
+          <strong>
+            {{ item.name }}
+          </strong>
+        </span>
       </div>
     </ion-slide>
 

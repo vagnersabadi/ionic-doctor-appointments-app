@@ -31,11 +31,9 @@
 
   ion-button {
     height: 45px;
-    // --border-radius: 60% 16% 25% 27% / 97% 22% 27% 16%;
     width: 50px;
     --border-radius: 30px 10px 10px 10px;
-    // position: absolute;
-    // z-index: 2;
+    order: 1;
   }
 }
 
@@ -77,11 +75,8 @@
   width: 110px;
   opacity: 0.8;
 
-
   ion-icon {
     font-size: 40px;
     margin-bottom: 8px;
   }
 }
-
-

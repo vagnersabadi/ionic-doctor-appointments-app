@@ -19,6 +19,7 @@ ion-header {
 #profile-description {
     font-size: 22px;
     color: #1b1818;
+    font-weight: 500;
 }
 
 #profile-name {
@@ -52,8 +53,9 @@ ion-header {
 
 .group-actions {
     ion-button {
-        --background: red;
-        --border-radius: 25px;
-        height: 60px;
+        --border-radius: 20px;
+        height: 55px;
+        margin: 10px;
+        --box-shadow: none
     }
 }

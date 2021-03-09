@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1615245812953,
+  "timestamp": 1615255611728,
   "index": "/ionic-doctor-appointments-app/index.html",
   "assetGroups": [
     {
@@ -11,8 +11,8 @@
         "ignoreVary": true
       },
       "urls": [
-        "/ionic-doctor-appointments-app/10-es2015.705f1a631fcc04e8af0e.js",
-        "/ionic-doctor-appointments-app/10-es5.705f1a631fcc04e8af0e.js",
+        "/ionic-doctor-appointments-app/10-es2015.ff769d2ba7ab932adfff.js",
+        "/ionic-doctor-appointments-app/10-es5.ff769d2ba7ab932adfff.js",
         "/ionic-doctor-appointments-app/11-es2015.2d1c7d3918cee21af685.js",
         "/ionic-doctor-appointments-app/11-es5.2d1c7d3918cee21af685.js",
         "/ionic-doctor-appointments-app/12-es2015.bc25089e8113e475b614.js",
@@ -115,11 +115,11 @@
         "/ionic-doctor-appointments-app/59-es5.904bd420377bdf9329aa.js",
         "/ionic-doctor-appointments-app/60-es2015.68bc8ede1f90da11ec06.js",
         "/ionic-doctor-appointments-app/60-es5.68bc8ede1f90da11ec06.js",
-        "/ionic-doctor-appointments-app/common-es2015.99c7e9f3f9374ed8c909.js",
-        "/ionic-doctor-appointments-app/common-es5.99c7e9f3f9374ed8c909.js",
+        "/ionic-doctor-appointments-app/common-es2015.1b9498eef028e1ac613b.js",
+        "/ionic-doctor-appointments-app/common-es5.1b9498eef028e1ac613b.js",
         "/ionic-doctor-appointments-app/index.html",
-        "/ionic-doctor-appointments-app/main-es2015.608b4b393525a27d6f4f.js",
-        "/ionic-doctor-appointments-app/main-es5.608b4b393525a27d6f4f.js",
+        "/ionic-doctor-appointments-app/main-es2015.6ab40215ce2cb21a1fa9.js",
+        "/ionic-doctor-appointments-app/main-es5.6ab40215ce2cb21a1fa9.js",
         "/ionic-doctor-appointments-app/manifest.webmanifest",
         "/ionic-doctor-appointments-app/polyfills-core-js-es2015.22f1882a210e2656646e.js",
         "/ionic-doctor-appointments-app/polyfills-core-js-es5.22f1882a210e2656646e.js",
@@ -129,8 +129,8 @@
         "/ionic-doctor-appointments-app/polyfills-dom-es5.be8f9b43841a5717dc94.js",
         "/ionic-doctor-appointments-app/polyfills-es2015.91389ecfa80f1063947d.js",
         "/ionic-doctor-appointments-app/polyfills-es5.7f04130fb748fb469cc3.js",
-        "/ionic-doctor-appointments-app/runtime-es2015.9df11a59e990b9cc4fc5.js",
-        "/ionic-doctor-appointments-app/runtime-es5.9df11a59e990b9cc4fc5.js",
+        "/ionic-doctor-appointments-app/runtime-es2015.c5b000eded08ea5b8c41.js",
+        "/ionic-doctor-appointments-app/runtime-es5.c5b000eded08ea5b8c41.js",
         "/ionic-doctor-appointments-app/styles.1e30d96a5963040e3836.css"
       ],
       "patterns": []
@@ -143,6 +143,7 @@
         "ignoreVary": true
       },
       "urls": [
+        "/ionic-doctor-appointments-app/assets/avatar.png",
         "/ionic-doctor-appointments-app/assets/icon/favicon.png",
         "/ionic-doctor-appointments-app/assets/icons/icon-128x128.png",
         "/ionic-doctor-appointments-app/assets/icons/icon-144x144.png",
@@ -159,8 +160,8 @@
   ],
   "dataGroups": [],
   "hashTable": {
-    "/ionic-doctor-appointments-app/10-es2015.705f1a631fcc04e8af0e.js": "7af943861c5496d78459301ac94f3bf4101b1ba6",
-    "/ionic-doctor-appointments-app/10-es5.705f1a631fcc04e8af0e.js": "39d3a208d74f599503f72ef41a563553910baca7",
+    "/ionic-doctor-appointments-app/10-es2015.ff769d2ba7ab932adfff.js": "bb4ba83533cdf97c57104a4922ca278f3fc9c89d",
+    "/ionic-doctor-appointments-app/10-es5.ff769d2ba7ab932adfff.js": "fda48c11fdbb734da035fa9dde7bc7331b82dfe5",
     "/ionic-doctor-appointments-app/11-es2015.2d1c7d3918cee21af685.js": "2194da446218a9e55b8b07b8b119d541be8bf86a",
     "/ionic-doctor-appointments-app/11-es5.2d1c7d3918cee21af685.js": "937abcd52cbfc4d544b68548fe8b19a3bbd69e07",
     "/ionic-doctor-appointments-app/12-es2015.bc25089e8113e475b614.js": "53c32b2ecade8bf6bcd12522d647f71c6265947b",
@@ -263,6 +264,7 @@
     "/ionic-doctor-appointments-app/59-es5.904bd420377bdf9329aa.js": "5acd6cff25d81625c624ee7d0a5a5bbf1ca7e4ad",
     "/ionic-doctor-appointments-app/60-es2015.68bc8ede1f90da11ec06.js": "ab5e1c2dd830a221eecc0ca181af869fa6c029b5",
     "/ionic-doctor-appointments-app/60-es5.68bc8ede1f90da11ec06.js": "0b900727bb1d9fb0dbd849843bc25c822a3ac2fd",
+    "/ionic-doctor-appointments-app/assets/avatar.png": "df3876371ed9646076ed1cd7f1202d01663e2962",
     "/ionic-doctor-appointments-app/assets/icon/favicon.png": "7798b8e0eb61d7375c245af78bbf5c916932bf13",
     "/ionic-doctor-appointments-app/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
     "/ionic-doctor-appointments-app/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
@@ -273,11 +275,11 @@
     "/ionic-doctor-appointments-app/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "/ionic-doctor-appointments-app/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
     "/ionic-doctor-appointments-app/assets/shapes.svg": "5413e95adabcb2cb639970051f55e0ddb64ace53",
-    "/ionic-doctor-appointments-app/common-es2015.99c7e9f3f9374ed8c909.js": "3fc00f1aa62ebb13885587dda52ac96527070249",
-    "/ionic-doctor-appointments-app/common-es5.99c7e9f3f9374ed8c909.js": "8766a794a3bb3ddbf4c7e30a07c0663fc87e91b7",
-    "/ionic-doctor-appointments-app/index.html": "f7b7f787894c1ce9d5fe7ce3d4678662439977db",
-    "/ionic-doctor-appointments-app/main-es2015.608b4b393525a27d6f4f.js": "65c7963e9eb1689bb5e069de63d886dd550a6c2b",
-    "/ionic-doctor-appointments-app/main-es5.608b4b393525a27d6f4f.js": "2b87de10b232e824c58bd39d7a604420b9484d49",
+    "/ionic-doctor-appointments-app/common-es2015.1b9498eef028e1ac613b.js": "72f20fcf8e11a0c8ad47aea95df6818552a666bc",
+    "/ionic-doctor-appointments-app/common-es5.1b9498eef028e1ac613b.js": "9edf157b9106dd8637cfc6d965f040dfc70cf824",
+    "/ionic-doctor-appointments-app/index.html": "6850afea67e82f2e3dc05a9afb46dd48050117d3",
+    "/ionic-doctor-appointments-app/main-es2015.6ab40215ce2cb21a1fa9.js": "35eee77b2c7ca1ffeea2e3ae18f530c07ef03627",
+    "/ionic-doctor-appointments-app/main-es5.6ab40215ce2cb21a1fa9.js": "c16270008d8a6114813e5c4b494ba3bb683dd3d6",
     "/ionic-doctor-appointments-app/manifest.webmanifest": "9a088b7c4339228d1082e666ce105dc889bc180c",
     "/ionic-doctor-appointments-app/polyfills-core-js-es2015.22f1882a210e2656646e.js": "f007c630c357ee7eeec2289a6cfc013dbcbe6fe9",
     "/ionic-doctor-appointments-app/polyfills-core-js-es5.22f1882a210e2656646e.js": "8531ee642b05d9e12e859babeaec61c2b1c1e57a",
@@ -287,8 +289,8 @@
     "/ionic-doctor-appointments-app/polyfills-dom-es5.be8f9b43841a5717dc94.js": "e8e1deb998b0930ba0a33bcfd116772f27b0ea25",
     "/ionic-doctor-appointments-app/polyfills-es2015.91389ecfa80f1063947d.js": "8ea3172d9dfcf79a7dea59945f5c6db8864d21f6",
     "/ionic-doctor-appointments-app/polyfills-es5.7f04130fb748fb469cc3.js": "a25578164cd3191cc5b39071e25f6be9f62477eb",
-    "/ionic-doctor-appointments-app/runtime-es2015.9df11a59e990b9cc4fc5.js": "59f31d20711278ebb54be724717edc9f6b352041",
-    "/ionic-doctor-appointments-app/runtime-es5.9df11a59e990b9cc4fc5.js": "ec2a74d63fe442ae6a89179c8f6fef22bae9ee94",
+    "/ionic-doctor-appointments-app/runtime-es2015.c5b000eded08ea5b8c41.js": "b74f88f5cba3e5b9e3ff09d18bcd55e654e6e2aa",
+    "/ionic-doctor-appointments-app/runtime-es5.c5b000eded08ea5b8c41.js": "b988b7686892781e1a12181ff18074727e6a1438",
     "/ionic-doctor-appointments-app/styles.1e30d96a5963040e3836.css": "9ba397dd4d58e38dcfba232120a428450049ec69"
   },
   "navigationUrls": [

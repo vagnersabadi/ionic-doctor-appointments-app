@@ -31,31 +31,31 @@ export class HomePage {
 
   doctors: Doctor[] = [
     {
-      avatar: 'https://avatars0.githubusercontent.com/u/12532889?s=400&u=758efee3e15b5e61f684a351fc82048426228f11&v=4',
+      avatar: 'https://github.com/vagnersabadi/ionic-doctor-appointments-app/blob/main/src/assets/avatar.png?raw=true',
       specialty: 'Cardiologist',
       name: 'Dr. Alan C Braverman',
       status: true
     },
     {
-      avatar: 'https://avatars0.githubusercontent.com/u/12532889?s=400&u=758efee3e15b5e61f684a351fc82048426228f11&v=4',
+      avatar: 'https://github.com/vagnersabadi/ionic-doctor-appointments-app/blob/main/src/assets/avatar.png?raw=true',
       specialty: 'Orthodontist',
       name: 'Dr. Michael Aaron',
       status: false
     },
     {
-      avatar: 'https://avatars0.githubusercontent.com/u/12532889?s=400&u=758efee3e15b5e61f684a351fc82048426228f11&v=4',
+      avatar: 'https://github.com/vagnersabadi/ionic-doctor-appointments-app/blob/main/src/assets/avatar.png?raw=true',
       specialty: 'Eye Specialist',
       name: 'Dr. Shelley Rahman',
       status: false
     },
     {
-      avatar: 'https://avatars0.githubusercontent.com/u/12532889?s=400&u=758efee3e15b5e61f684a351fc82048426228f11&v=4',
+      avatar: 'https://github.com/vagnersabadi/ionic-doctor-appointments-app/blob/main/src/assets/avatar.png?raw=true',
       specialty: 'Orthodontist',
       name: 'Dr. Michael Aaron',
       status: false
     },
     {
-      avatar: 'https://avatars0.githubusercontent.com/u/12532889?s=400&u=758efee3e15b5e61f684a351fc82048426228f11&v=4',
+      avatar: 'https://github.com/vagnersabadi/ionic-doctor-appointments-app/blob/main/src/assets/avatar.png?raw=true',
       specialty: 'Eye Specialist',
       name: 'Dr. Shelley Rahman',
       status: false

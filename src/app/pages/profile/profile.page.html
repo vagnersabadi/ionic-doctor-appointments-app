@@ -20,7 +20,7 @@
 
 
     <div class="ion-text-center group-actions">
-      <ion-button  [style.--background]="'#5260ff29'">
+      <ion-button [style.--background]="'#5260ff29'">
         <ion-icon slot="icon-only" name="chatbox" color="tertiary"></ion-icon>
       </ion-button>
       <ion-button [style.--background]="'#ffc40929'">
@@ -37,7 +37,7 @@
 
   </div>
 
-  <ion-item lines="none" id="about">
+  <ion-item lines="none" class="title">
     <ion-label>
       <div class="sub-title">
         <strong slot="start">About</strong>
@@ -46,6 +46,105 @@
         multiple hospitals in the area. </p>
     </ion-label>
   </ion-item>
+
+  <ion-item lines="none" class="title schedules">
+    <ion-label>
+      <div class="sub-title">
+        <strong slot="start">Schedules</strong>
+      </div>
+    </ion-label>
+
+    <ion-chip class="chip-months">
+      <ion-icon name="chevron-back"></ion-icon>
+      <ion-label>
+        <strong>January</strong>
+      </ion-label>
+      <ion-icon name="chevron-forward"></ion-icon>
+    </ion-chip>
+  </ion-item>
+
+  <ion-grid>
+
+    <ion-row>
+
+      <ion-col size="1.68">
+        <ion-badge class="group-week-day" color="tertiary">
+
+          <div class="week">
+            Su
+          </div>
+          <div class="day">
+            <ion-text color="light">
+              10
+            </ion-text>
+          </div>
+        </ion-badge>
+      </ion-col>
+
+      <ion-col size="1.68">
+        <ion-badge class="group-week-day" color="light">
+          <div class="week">
+            Mo
+          </div>
+          <div class="day">
+            11
+          </div>
+        </ion-badge>
+      </ion-col>
+      <ion-col size="1.68">
+        <ion-badge class="group-week-day" color="light">
+          <div class="week">
+            Tu
+          </div>
+          <div class="day">
+            12
+          </div>
+        </ion-badge>
+      </ion-col>
+      <ion-col size="1.68">
+        <ion-badge class="group-week-day" color="light">
+          <div class="week">
+            We
+          </div>
+          <div class="day">
+            13
+          </div>
+        </ion-badge>
+      </ion-col>
+      <ion-col size="1.68">
+        <ion-badge class="group-week-day" color="light">
+          <div class="week">
+            Th
+          </div>
+          <div class="day">
+            14
+          </div>
+        </ion-badge>
+      </ion-col>
+      <ion-col size="1.68">
+        <ion-badge class="group-week-day" color="light">
+          <div class="week">
+            Fri
+          </div>
+          <div class="day">
+            15
+          </div>
+        </ion-badge>
+      </ion-col>
+      <ion-col size="1.68">
+        <ion-badge class="group-week-day" color="light">
+          <div class="week">
+            Sa
+          </div>
+          <div class="day">
+            <ion-text>
+              16
+            </ion-text>
+          </div>
+        </ion-badge>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 
 
 

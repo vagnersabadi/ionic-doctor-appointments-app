@@ -83,3 +83,25 @@ ion-header {
         color: var(--ion-color-secondary);
     }
 }
+
+.btn-time-appointment {
+    ion-button {
+        --box-shadow: none;
+        --border-radius: 25px;
+        height: 80px;
+        font-size: 18px;
+        font-weight: bold;
+        margin: 25px;
+    }
+
+    .time {
+        --background: #bec0c629;
+        width: 80px;
+        
+    }
+
+    .appointment {
+        text-transform: capitalize;
+        width: 200px;
+    }
+}
